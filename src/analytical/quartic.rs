@@ -121,8 +121,7 @@ pub fn find_roots_quartic<F: FloatType>(a4: F, a3: F, a2: F, a1: F, a0: F) -> Ro
                     * (a4 * a0 * (_144 * a2 * a0 - _6 * a1 * a1)
                         + (a0 * (_18 * a3 * a2 * a1 - _27 * a3 * a3 * a0 - _4 * a2 * a2 * a2)
                             + a1 * a1 * (a2 * a2 - _4 * a3 * a1)))
-            
-            + a4 * a1 * a1 * (_18 * a3 * a2 * a1 - _27 * a4 * a1 * a1 - _4 * a2 * a2 * a2))
+            + a4 * a1 * a1 * (_18 * a3 * a2 * a1 - _27 * a4 * a1 * a1 - _4 * a2 * a2 * a2)
         let pp = _8 * a4 * a2 - _3 * a3 * a3;
         let rr = a3 * a3 * a3 + _8 * a4 * a4 * a1 - _4 * a4 * a3 * a2;
         let delta0 = a2 * a2 - _3 * a3 * a1 + _12 * a4 * a0;
